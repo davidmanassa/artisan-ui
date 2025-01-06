@@ -1,24 +1,24 @@
 {
-    "name": "lorisleiva/artisan-ui",
+    "name": "davidmanassa/artisan-ui",
     "description": "Run your artisan commands by pressing buttons.",
     "keywords": [
         "laravel",
         "artisan",
         "ui"
     ],
-    "homepage": "https://github.com/lorisleiva/artisan-ui",
+    "homepage": "https://github.com/davidmanassa/artisan-ui",
     "license": "MIT",
     "authors": [
         {
-            "name": "Loris Leiva",
-            "email": "loris.leiva@gmail.com",
-            "homepage": "https://lorisleiva.com",
+            "name": "David Pires",
+            "email": "manassa97@outlook.com",
+            "homepage": "https://davidmanassa.software",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/contracts": "^8.0",
+        "illuminate/contracts": "^9.0|^10.0|^11.0",
         "spatie/laravel-package-tools": "^1.9"
     },
     "require-dev": {
@@ -55,7 +55,7 @@
     "funding": [
         {
             "type": "github",
-            "url": "https://github.com/sponsors/lorisleiva"
+            "url": "https://github.com/sponsors/davidmanassa"
         }
     ]
 }

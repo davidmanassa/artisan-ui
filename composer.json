@@ -18,11 +18,13 @@
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/contracts": "^11.0",
+        "illuminate/contracts": "^8.0",
         "spatie/laravel-package-tools": "^1.9"
     },
     "require-dev": {
-
+        "orchestra/testbench": "^6.0",
+        "pestphp/pest": "^0.3.14",
+        "phpunit/phpunit": "^9.3.10"
     },
     "autoload": {
         "psr-4": {
@@ -39,10 +41,7 @@
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
     },
     "config": {
-        "sort-packages": true,
-        "allow-plugins": {
-            "pestphp/pest-plugin": true
-        }
+        "sort-packages": true
     },
     "extra": {
         "laravel": {

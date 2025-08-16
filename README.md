@@ -6,6 +6,15 @@
 
 ![artisan-ui](https://user-images.githubusercontent.com/3642397/122096132-21600a80-ce06-11eb-9d26-a73282cc21dd.png)
 
+## About this fork
+
+This repository is a fork of the original [lorisleiva/artisan-ui](https://github.com/lorisleiva/artisan-ui), created to:
+- Maintain and promote support for the latest versions of Laravel and PHP.
+- Apply improvements and fixes that make sense for the evolution of the package.
+- Ensure a stable and up-to-date experience for those who want to use a web interface for Artisan commands.
+
+Contributions are very welcome! If you'd like to contribute, feel free to open a Pull Request (PR).
+
 ## Installation
 
 ```sh
